@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background: no-repeat center/cover url("assets/tailandia.jpg");
+    height: calc(150vh - 200px);    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+img {
+    height: 25px;
+    margin: 0px 0px 0px 15px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    margin:0 15px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+.header-content{
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.info .info-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 3rem
+}
+
+.info{
+    background: #58b4f1;
+    padding: 15px;
+}
+
+.info .info-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px 0 0 0;
+    margin: 0px 0px 0px 0px;
+}
+
+.info .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.info .card-content {
+    padding: 0 15px;
+}
+
+.info .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.info .card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.info .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.info .card-content h1 {
+    font-size: 1rem;
+}
+
+.info .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.relato {
+    padding: 15px;
+}
+
+.relato .relato-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.relato .relato-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+
+.relato .card {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.relato .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+}
+
+.relato .card svg:hover {
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.relato .card h3 {
+    font-weight: bold;
+}
+
+.relato .card p {
+    color: blue;
+    font-size: 0.8rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.relato .card .card-content {
+    height: 500px;
+    text-align: center;
+}
+
+.contatos {
+    padding: 15px;
+    background-color: #58b4f1;
+    flex-direction: unset;
+}
+
+.contatos .contatos-card{
+    height: 110px;
+    background: white;
+    position: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+}
+
+.contatos .contatos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.contatos p {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.contatos .mail {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .mail svg {
+    color:rgb(128, 7, 7);
+}
+
+.contatos .facebook {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .facebook svg {
+    color: #1d61dd;
+}
+
+.contatos .twitter {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .twitter svg {
+    color: aquamarine;
+}
+
+.contatos .instagram {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .instagram svg {
+    color: #dd1dca;
+}
+
+.contatos .phone {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .phone svg {
+    color: #046334;
+}
+
+.contatos .rodape p {
+    line-height: 0.2;
+    margin-top: 25px;
+}
+
+.contatos .info p {
+    font-size: 12px;
+}
